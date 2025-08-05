@@ -35,7 +35,7 @@ export default function Greeting() {
               <div className="button-greeting-div">
                 {greeting.resumeLink && (
                   <a
-                    href={require("./Syed_Sulthan_FullStack_Developer.pdf")}
+                    href={require("./Syed-Sulthan_FullStack_Developer.pdf")}
                     download="Syed_Sulthan_FullStack_Developer.pdf"
                     className="download-link-button"
                   >

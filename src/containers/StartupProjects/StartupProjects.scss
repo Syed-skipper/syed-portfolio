@@ -28,6 +28,7 @@
   border-radius: 10px;
   border: 1px solid $lightBorder1;
   justify-content: center;
+  align-items: center;
 }
 .project-card-light {
   box-shadow: $lightBoxShadowDark 0px 10px 30px -15px;
@@ -54,8 +55,9 @@
 }
 .project-image {
   position: relative;
-  height: 250px;
-  overflow: hidden;
+    width: 80px;
+    height: 80px;  
+    overflow: hidden;
   display: flex;
   justify-content: center;
   align-items: center;

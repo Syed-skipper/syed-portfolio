@@ -38,7 +38,7 @@ const greeting = {
   username: "Syed Sulthan",
   title: "Syed Sulthan",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer having an experience of building Web and Mobile applications with JavaScript / Reactjs / VueJs / Nodejs / ExpressJs and some other cool libraries and frameworks."
+    "A passionate Full Stack Web Developer having an experience of building Web and Mobile applications with JavaScript / Reactjs / VueJs / Nodejs / ExpressJs and some other cool libraries and frameworks."
   ),
   resumeLink:
     "https://drive.google.com/file/d/18X13ARgLUYg06NzrzXBeCGNCRglYZDD5/view?usp=drive_link",
@@ -51,7 +51,7 @@ const socialMediaLinks = {
   github: "https://github.com/Syed-skipper",
   linkedin: "https://www.linkedin.com/in/syed-sulthan-778688267/",
   gmail: "syedsulthan868@gmail.com",
-  facebook: "https://www.facebook.com/saad.pasta7",
+  facebook: "https://www.facebook.com/",
   medium: "https://medium.com/@syedsulthan868",
   display: true
 };
@@ -217,29 +217,29 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Personal Projects",
+  subtitle: "",
   projects: [
     {
-      // image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectName: "Blog Hub",
+      image: require("./assets/images/blog.png"),
+      projectDesc: "A Simple Blogging Platform",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
+          url: "https://luminous-cobbler-cbc829.netlify.app/"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      // image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectName: "Todo App",
+      image: require("./assets/images/TODO.png"),
+      projectDesc: "A simple Todo Application with Group",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/"
+          url: "https://todo-app-ui-lake.vercel.app/login"
         }
       ]
     }
